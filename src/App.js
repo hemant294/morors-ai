@@ -7,20 +7,17 @@ import AppRoutes from './routes/AppRoutes';
 
 function App() {
   return (
-    <div>
-      <DummyHeader />
-      <div className='hero-header'>
-        <Header />
-      </div>
-      <div className="hero-overlay">
-
-      </div>
+    <div className="hero">
+      <div className="hero-overlay"></div>
       <div className="main-content">
+        <DummyHeader />
+        <div className='hero-header pt-4'>
+          <Header />
+        </div>
         <AppRoutes />
-      </div>
-
-      <div className='hero-footer'>
-        <Footer />
+        <div className='hero-footer'>
+          <Footer />
+        </div>
       </div>
     </div>
   );

@@ -13,7 +13,7 @@ const Home = () => {
             <div className='pt-3'>
                 <img src={carsList} className='carslist-home' alt="detials of cras" />
             </div>
-            <div className='row d-flex home-flex-content pt-4'>
+            <div className='row d-flex home-flex-content pt-4 mb-5'>
                 <div className='col-1 p-0'></div>
                 <div className='col-4 text-center queary-ai-first'>
                     <img src={robot} alt="" />

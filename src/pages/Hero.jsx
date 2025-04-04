@@ -16,12 +16,8 @@ import group from "../assets/Group 1000009390.png"
 
 const Hero = () => {
     return (
-        <div className='hero'>
-            {/* <div className='hero-header'>
-                <Header />
-            </div> */}
-            {/* <div className="hero-overlay"></div> */}
-            <div className="hero-content">
+        <div className=''>
+            <div className="">
                 <div className='row hero-image-group'>
                     <div className='col hero-images-head'>
                         <img src={img1} alt="" className='hero-images' />
@@ -54,13 +50,10 @@ const Hero = () => {
                     </div>
                 </div>
                 <div className='text-center pt-3'>
-                    <img src={group} alt="" style={{width: "35px", height: "35px"}}/>
-                    <span className='ps-2' style={{fontSize: "16px", color: "#F800C0"}}>Register with Motors</span>
+                    <img src={group} alt="" style={{ width: "35px", height: "35px" }} />
+                    <span className='ps-2' style={{ fontSize: "16px", color: "#F800C0" }}>Register with Motors</span>
                 </div>
             </div>
-            {/* <div className='hero-footer'>
-                <Footer />
-            </div> */}
         </div>
     )
 }
