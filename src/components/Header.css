@@ -1,0 +1,43 @@
+.logo {
+    width: 224px;
+    height: 58px;
+}
+
+.header-head{
+    width: 92%;
+    margin: auto;
+}
+
+.signin-btn {
+    width: 125px;
+    height: 54px;
+    border-radius: 90px;
+    font-size: 20px !important;
+    font-weight: 400 !important;
+    color: #FFFFFF !important;
+    background: linear-gradient(to right, #7670FF, #5B42FF);
+    border-color: linear-gradient(to right, #7670FF, #5B42FF);
+}
+
+.signin-btn:hover{
+    background: linear-gradient(to right, #5B42FF, #7670FF);
+    border-color: linear-gradient(to right, #5B42FF, #7670FF);
+}
+
+.button-group {
+    width: 255px;
+    height: 54px;
+    border-radius: 90px;
+    border-width: 1px;
+    border: 1px solid;
+    text-align: center;
+    align-items: center;
+    border-color: #7670FF;
+}
+
+.button-group button {
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 400 !important;
+    color: #FFFFFF !important;
+}

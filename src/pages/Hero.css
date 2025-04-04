@@ -1,0 +1,142 @@
+/* body {
+    background-image: url('../assets/main_bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+
+body {
+    /* position: relative; */
+    /* Establish a positioning context */
+    background: url('../assets/main_bg.png') no-repeat center center/cover;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    /* Adjust opacity as needed */
+    z-index: 1;
+}
+
+.hero {
+    position: relative;
+}
+
+
+.hero-overlay {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    /* This ensures that the hero content is above the overlay */
+}
+
+
+.hero-header {
+    position: relative;
+    padding-top: 28px;
+    z-index: 999;
+}
+
+.hero-footer {
+    position: relative;
+    /* position: fixed; */
+    z-index: 999;
+
+    bottom: 0;
+    /* padding-bottom: 24px !important; */
+}
+
+.hero-text {
+    font-family: Gotham Rounded;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #7670FF;
+    text-align: center;
+}
+
+.head-input-create {
+    width: 70%;
+    margin: auto;
+    background-color: black;
+    height: 78px;
+    align-items: center;
+}
+
+.input-text {
+    font-family: Gotham Rounded;
+    font-weight: 300;
+    font-size: 22px;
+    margin-bottom: 0;
+    line-height: 150%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #ffffff;
+    padding-left: 35px;
+}
+
+.google-lance-logo {
+    width: 50px;
+    height: 50px;
+}
+
+.micke-icon {
+    width: 46px;
+    height: 46px;
+    color: #7670FF;
+}
+
+.submit-icon-head {
+    width: 58px;
+    height: 58px;
+    background-color: #F800C0;
+    text-align: center;
+    margin-bottom: 0;
+    margin-right: 10px;
+    align-items: center;
+}
+
+.submit-icon {
+    width: 32px;
+    height: 32px;
+    color: #ffffff;
+    margin-top: 10px;
+    rotate: 45% !important;
+}
+
+.hero-images {
+    width: 160px;
+    height: 90px;
+}
+
+.hero-image-group {
+    width: 80%;
+    margin: auto !important;
+}
+
+.hero-robot {
+    width: 160px;
+    height: 160px;
+}
+
+.hero-images-head {
+    margin: auto !important;
+    padding-left: 8px !important;
+}

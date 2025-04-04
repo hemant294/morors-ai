@@ -1,0 +1,41 @@
+.footer-text {
+    font-family: Gotham Rounded;
+    font-weight: 350;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    /* text-align: right; */
+    color: #4B4CFF;
+    margin-bottom: 0;
+}
+
+.footer-head{
+    width: 92%;
+    margin: auto;
+}
+
+.social-media-icon {
+    width: 16px;
+    height: 16px;
+    color: #4B4CFF;
+    margin-left: 16px;
+}
+
+.footer-tag {
+    font-family: Gotham Rounded;
+    font-weight: 350;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    color: #4B4CFF;
+    margin-left: 24px;
+    margin-bottom: 0;
+}
+
+.footer-tag span {
+    color: #FFFFFF;
+}
+
+.head-social-media-icon{
+    margin-left: 40px;
+}
