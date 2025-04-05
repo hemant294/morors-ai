@@ -44,12 +44,14 @@
 .google-lance-logo {
     width: 50px;
     height: 50px;
+    margin-right: 12px;
 }
 
 .micke-icon {
     width: 46px;
     height: 46px;
     color: #7670FF;
+    margin-right: 12px;
 }
 
 .submit-icon-head {
@@ -97,9 +99,16 @@
 .hero-images-head {
     margin: auto !important;
     padding-left: 8px !important;
+
 }
 
+.hero-image-group-mobile{
+    display: none;
+}
 
+.mobile-view-robot{
+    display: none;
+}
 
 @media screen and (max-width: 680px) {
     .head-input-create {
@@ -109,22 +118,12 @@
     }
 
     .hero-image-group {
-        max-width: 400px;
+        max-width: 360px;
         margin: auto;
     }
 
     .hero-text {
         font-size: 16px;
-    }
-
-    .hero-images {
-        width: 80px;
-        height: 60px;
-    }
-
-    .hero-robot {
-        width: 90px;
-        height: 90px;
     }
     
     .submit-icon {
@@ -156,4 +155,58 @@
         margin-right: 8px;
     }
 
+    .hero-image-group-mobile{
+        max-width: 360px;
+        margin: auto !important;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+    }
+
+    .hero-image-group{
+        display: none;
+    }
+
+    .hero-images-mobile{
+        width: 110px;
+        height: 65px;
+        padding: 5px;
+    }
+
+    .mobile-view-robot{
+        display: block;
+        width: 180px;
+        height: 180px;
+    }
+
+    .mobile-view-robot-head{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
 }
+
+@media screen and (max-width: 360px) {
+    .google-lance-logo {
+        margin-right: 5px !important;
+    }
+    
+    .micke-icon {
+        margin-right: 5px !important;
+    }
+    
+    .submit-icon-head {
+        margin-right: 5px !important;
+    }
+
+    .head-input-create {
+        width: 300px;
+        margin: auto;
+        height: 40px;
+    }
+
+    .input-text{
+        font-size: 10px;
+    }
+}
+

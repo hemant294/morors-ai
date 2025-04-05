@@ -35,7 +35,8 @@ const Hero = () => {
                         animate={{ x: 0, opacity: 1 }}
                         transition={{ duration: 0.8, ease: 'easeOut' }}
                         style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}
-                    >                        <img src={img2} alt="" className='hero-images' style={{ marginBottom: "40px" }} />
+                    >
+                        <img src={img2} alt="" className='hero-images' style={{ marginBottom: "40px" }} />
                         <img src={img3} alt="" className='hero-images' />
                     </motion.div>
                     <motion.div
@@ -44,7 +45,8 @@ const Hero = () => {
                         animate={{ y: 0, opacity: 1 }}
                         transition={{ duration: 0.8, ease: 'easeOut' }}
                         style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}
-                    >                        <img src={img4} alt="" className='hero-images' style={{ marginTop: "-25px", marginBottom: '30px' }} />
+                    >
+                        <img src={img4} alt="" className='hero-images' style={{ marginTop: "-25px", marginBottom: '30px' }} />
                         <img src={robot} alt="" className='hero-robot' />
                     </motion.div>
                     <motion.div
@@ -53,7 +55,8 @@ const Hero = () => {
                         animate={{ y: 0, opacity: 1 }}
                         transition={{ duration: 0.8, ease: 'easeOut' }}
                         style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}
-                    >                        <img src={img5} alt="" className='hero-images' style={{ marginTop: "60px", marginBottom: "40px" }} />
+                    >
+                        <img src={img5} alt="" className='hero-images' style={{ marginTop: "60px", marginBottom: "40px" }} />
                         <img src={img6} alt="" className='hero-images' />
                     </motion.div>
                     <motion.div
@@ -62,21 +65,59 @@ const Hero = () => {
                         animate={{ y: 0, opacity: 1 }}
                         transition={{ duration: 0.8, ease: 'easeOut' }}
                         style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}
-                    >                        <img src={img1} alt="" className='hero-images' />
+                    >
+                        <img src={img1} alt="" className='hero-images' />
                     </motion.div>
                 </div>
-                <h1 className='hero-text mt-5'>Find Your Motor with AI-Powered Agent</h1>
+                <div className='hero-image-group-mobile'>
+                    <motion.div
+                        className='hero-images-head-mobile'
+                        initial={{ x: 100, opacity: 0 }}
+                        animate={{ x: 0, opacity: 1 }}
+                        transition={{ duration: 0.8, ease: 'easeOut' }}
+                        style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}
+                    >
+                        <img src={img2} alt="" className='hero-images-mobile' style={{marginTop: "-35px"}}/>
+                        <img src={img3} alt="" className='hero-images-mobile' />
+                    </motion.div>
+                    <motion.div
+                        className='hero-images-head-mobile'
+                        initial={{ y: -100, opacity: 0 }}
+                        animate={{ y: 0, opacity: 1 }}
+                        transition={{ duration: 0.8, ease: 'easeOut' }}
+                        style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}
+                    >
+                        <img src={img1} alt="" className='hero-images-mobile' />
+                        <img src={img4} alt="" className='hero-images-mobile' />
+                        {/* <img src={robot} alt="" className='hero-images-mobile' /> */}
+                    <img src={img1} alt="" className='hero-images-mobile' />
+                    </motion.div>
+                    <motion.div
+                        className='hero-images-head-mobile'
+                        initial={{ y: 100, opacity: 0 }}
+                        animate={{ y: 0, opacity: 1 }}
+                        transition={{ duration: 0.8, ease: 'easeOut' }}
+                        style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}
+                    >
+                        <img src={img5} alt="" className='hero-images-mobile' style={{marginTop: "35px"}}/>
+                        <img src={img6} alt="" className='hero-images-mobile' />
+                    </motion.div>
+                </div>
+                <div className='mobile-view-robot-head mt-4'>
+                <img src={robot} alt="" srcset="" className='mobile-view-robot'/>
+                </div>
+                <h1 className='hero-text mt-1'>Find Your Motor with AI-Powered Agent</h1>
                 <div className='d-flex justify-content-between head-input-create rounded-pill'>
                     <p className='input-text'><span style={{ color: "#F800C0", paddingBottom: "5px" }}>|</span> Ask me anything about motors...</p>
                     <div className='d-flex align-items-center'>
-                        <img src={lance} className='google-lance-logo me-3' />
-                        <img src={micro} className='micke-icon me-3' />
+                        <img src={lance} className='google-lance-logo' />
+                        <img src={micro} className='micke-icon' />
                         <p className='submit-icon-head rounded-circle'>
                             <IoMdNavigate className='submit-icon' />
                         </p>
                     </div>
                 </div>
-                <div className='text-center pt-3'>
+                <div className='text-center pt-3 pb-3'>
                     <img src={group} alt="" style={{ width: "35px", height: "35px" }} />
                     <span className='ps-2' style={{ fontSize: "16px", color: "#F800C0" }}>Register with Motors</span>
                 </div>
