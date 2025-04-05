@@ -42,6 +42,11 @@
     display: flex;
     align-items: center;
   }
+
+  .footer-head {
+    z-index: 10; /* higher than video & overlay */
+
+  }
   
   /* ✅ Responsive styles */
   @media screen and (max-width: 768px) {

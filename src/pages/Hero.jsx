@@ -17,8 +17,7 @@ import { motion } from 'framer-motion';
 
 const Hero = () => {
     return (
-        <div className=''>
-            <div className="">
+        <div className='main-home'>
                 <div className='hero-image-group'>
                     <motion.div
                         className='hero-images-head'
@@ -27,7 +26,10 @@ const Hero = () => {
                         transition={{ duration: 0.8, ease: 'easeOut' }}
                         style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}
                     >
+                        <div>
+                        <p className='card-tag'>SUVs</p>
                         <img src={img1} alt="" className='hero-images' />
+                        </div>
                     </motion.div>
                     <motion.div
                         className='hero-images-head'
@@ -117,11 +119,10 @@ const Hero = () => {
                         </p>
                     </div>
                 </div>
-                <div className='text-center pt-3 pb-3'>
+                <div className='text-center pt-3'>
                     <img src={group} alt="" style={{ width: "35px", height: "35px" }} />
                     <span className='ps-2' style={{ fontSize: "16px", color: "#F800C0" }}>Register with Motors</span>
                 </div>
-            </div>
         </div>
     )
 }
