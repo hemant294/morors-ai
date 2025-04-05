@@ -6,7 +6,7 @@ import { RiTwitterXFill } from "react-icons/ri";
 
 const Footer = () => {
   return (
-    <div className='d-flex justify-content-between align-items-center footer-head fixed-bottom mb-3 flex-wrap'>
+    <div className='d-flex justify-content-between align-items-center footer-head mb-3'>
       <h5 className='footer-text'>
         © 2025 Copyright motorsfinder.ai / All Rights Reserved.
       </h5>
