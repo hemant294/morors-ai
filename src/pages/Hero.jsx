@@ -13,30 +13,57 @@ import img5 from "../assets/Rectangle 14878.png"
 import img6 from "../assets/Rectangle 14880.png"
 import robot from "../assets/Ellipse 1180.png"
 import group from "../assets/Group 1000009390.png"
+import { motion } from 'framer-motion';
 
 const Hero = () => {
     return (
         <div className=''>
             <div className="">
-                <div className='row hero-image-group'>
-                    <div className='col hero-images-head'>
+                <div className='hero-image-group'>
+                    <motion.div
+                        className='hero-images-head'
+                        initial={{ y: -100, opacity: 0 }}
+                        animate={{ y: 0, opacity: 1 }}
+                        transition={{ duration: 0.8, ease: 'easeOut' }}
+                        style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}
+                    >
                         <img src={img1} alt="" className='hero-images' />
-                    </div>
-                    <div className='col hero-images-head'>
-                        <img src={img2} alt="" className='hero-images' style={{ marginBottom: "40px" }} />
+                    </motion.div>
+                    <motion.div
+                        className='hero-images-head'
+                        initial={{ x: 100, opacity: 0 }}
+                        animate={{ x: 0, opacity: 1 }}
+                        transition={{ duration: 0.8, ease: 'easeOut' }}
+                        style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}
+                    >                        <img src={img2} alt="" className='hero-images' style={{ marginBottom: "40px" }} />
                         <img src={img3} alt="" className='hero-images' />
-                    </div>
-                    <div className='col hero-images-head'>
-                        <img src={img4} alt="" className='hero-images' style={{ marginTop: "-25px", marginBottom: '30px' }} />
+                    </motion.div>
+                    <motion.div
+                        className='hero-images-head'
+                        initial={{ y: -100, opacity: 0 }}
+                        animate={{ y: 0, opacity: 1 }}
+                        transition={{ duration: 0.8, ease: 'easeOut' }}
+                        style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}
+                    >                        <img src={img4} alt="" className='hero-images' style={{ marginTop: "-25px", marginBottom: '30px' }} />
                         <img src={robot} alt="" className='hero-robot' />
-                    </div>
-                    <div className='col hero-images-head'>
-                        <img src={img5} alt="" className='hero-images' style={{ marginTop: "30px", marginBottom: "30px" }} />
+                    </motion.div>
+                    <motion.div
+                        className='hero-images-head'
+                        initial={{ y: 100, opacity: 0 }}
+                        animate={{ y: 0, opacity: 1 }}
+                        transition={{ duration: 0.8, ease: 'easeOut' }}
+                        style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}
+                    >                        <img src={img5} alt="" className='hero-images' style={{ marginTop: "60px", marginBottom: "40px" }} />
                         <img src={img6} alt="" className='hero-images' />
-                    </div>
-                    <div className='col hero-images-head'>
-                        <img src={img1} alt="" className='hero-images' />
-                    </div>
+                    </motion.div>
+                    <motion.div
+                        className='hero-images-head'
+                        initial={{ y: -100, opacity: 0 }}
+                        animate={{ y: 0, opacity: 1 }}
+                        transition={{ duration: 0.8, ease: 'easeOut' }}
+                        style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}
+                    >                        <img src={img1} alt="" className='hero-images' />
+                    </motion.div>
                 </div>
                 <h1 className='hero-text mt-5'>Find Your Motor with AI-Powered Agent</h1>
                 <div className='d-flex justify-content-between head-input-create rounded-pill'>

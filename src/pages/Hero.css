@@ -1,51 +1,3 @@
-/* body {
-    background-image: url('../assets/main_bg.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-} */
-
-body {
-    /* position: relative; */
-    /* Establish a positioning context */
-    background: url('../assets/main_bg.png') no-repeat center center/cover;
-}
-
-body::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
-    /* Adjust opacity as needed */
-    z-index: 1;
-}
-
-.hero {
-    position: relative;
-}
-
-
-.hero-overlay {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
-    z-index: 1;
-}
-
-/* 
-.hero-content {
-    position: relative;
-    z-index: 2;
-    /* This ensures that the hero content is above the overlay */
-/* } */ */
-
-
 .hero-header {
     position: relative;
     padding-top: 28px;
@@ -54,31 +6,28 @@ body::before {
 
 .hero-footer {
     position: relative;
-    /* position: fixed; */
     z-index: 999;
-
     bottom: 0;
-    /* padding-bottom: 24px !important; */
 }
 
 .hero-text {
-    font-family: Gotham Rounded;
-    font-weight: 400;
+    font-family: "Gotham Rounded";
+    font-weight: 500;
     font-size: 34px;
     line-height: 150%;
     letter-spacing: 0%;
     vertical-align: middle;
-    color: #7670FF;
+    color: #ffffff;
     text-align: center;
 }
 
 .head-input-create {
-    width: 70%;
+    width: 900px;
     margin: auto;
     background-color: black;
     height: 78px;
     align-items: center;
-}
+} 
 
 .input-text {
     font-family: Gotham Rounded;
@@ -122,13 +71,22 @@ body::before {
 }
 
 .hero-images {
-    width: 160px;
-    height: 90px;
+    width: 170px;
+    height: 100px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+.hero-images:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+
 .hero-image-group {
-    width: 80%;
+    max-width: 800px;
     margin: auto !important;
+    display: flex;
+    justify-content: center;
 }
 
 .hero-robot {
@@ -139,4 +97,63 @@ body::before {
 .hero-images-head {
     margin: auto !important;
     padding-left: 8px !important;
+}
+
+
+
+@media screen and (max-width: 480px) {
+    .head-input-create {
+        width: 360px;
+        margin: auto;
+        height: 40px;
+    }
+
+    .hero-image-group {
+        max-width: 450px;
+        margin: auto;
+    }
+
+    .hero-text {
+        font-size: 16px;
+    }
+
+    .hero-images {
+        width: 80px;
+        height: 40px;
+    }
+
+    .hero-robot {
+        width: 80px;
+        height: 40px;
+    }
+    
+    .submit-icon {
+        width: 22px;
+        height: 22px;
+        margin-top: 0px;
+    }
+
+    .input-text {
+        font-weight: 300;
+        font-size: 14px;
+        padding-left: 15px;
+    }
+
+    .google-lance-logo {
+        width: 26px;
+        height: 26px;
+    }
+    
+    .micke-icon {
+        width: 26px;
+        height: 26px;
+        color: #7670FF;
+    }
+    
+    .submit-icon-head {
+        width: 30px;
+        height: 30px;
+        margin-right: 8px;
+    }
+
 }

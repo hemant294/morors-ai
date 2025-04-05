@@ -9,7 +9,7 @@ const Header = () => {
         <div className="logo-head">
           <img src={logo} className="logo" alt="Logo" />
         </div>
-        <div className="d-flex align-items-center">
+        <div className="d-flex right-navbar-head align-items-center">
           <div className="me-3 button-group ">
             <button className="btn me-2">Buy</button>
             <button className="btn me-2">Sell</button>

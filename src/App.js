@@ -4,11 +4,12 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import DummyHeader from './components/DummyHeader';
 import AppRoutes from './routes/AppRoutes';
-
+import videoBg from "../src/assets/video.mp4"
 function App() {
   return (
     <div className="hero">
-      <div className="hero-overlay"></div>
+      <div className='overlay'></div>
+      <video src={videoBg} autoPlay loop muted />
       <div className="main-content">
         <DummyHeader />
         <div className='hero-header pt-4'>
