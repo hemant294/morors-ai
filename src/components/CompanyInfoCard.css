@@ -1,0 +1,56 @@
+
+.company-info-card-head{
+    display: flex;
+    justify-content: space-between;
+    /* width: 1200px; */
+    /* margin: auto; */
+}
+
+.company-info-card-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.company-logo{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+
+.company-info-card-header{
+
+}
+
+.company-info-card-header h2{
+    font-size: 30px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.company-info-card-header p{
+    font-size: 16px;
+    color: #F800C0;
+    font-weight: 500;
+    margin: 0;
+}
+
+.company-info-card-header span{
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+
+.company-info-card-icon{
+    font-size: 18px;
+    color: #FFFFFF;
+    font-weight: 700;
+    margin-right: 20px;
+}
+
+.comapny-info-card-description{
+font-weight: 300;
+color: #FFFFFF;
+font-size: 14px;
+line-height: 150%;
+letter-spacing: 0%;
+}

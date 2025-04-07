@@ -1,0 +1,65 @@
+
+.banner-head{
+    position: relative;
+    width: 1200px;
+    margin: auto;
+}
+
+.enquiry-text{
+    position: absolute;
+    height: 100px;
+    width: 240px;
+    margin: 20px 0 0 40px ;
+    z-index: 999
+}
+
+.backimg-enquiry{
+    width: 1200px;
+    height: 230px;
+    margin: auto;
+}
+
+.enquiry-btn{
+    padding: 12px 25px !important;
+    border-radius: 90px;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    color: #FFFFFF !important;
+    background: linear-gradient(to right, #7670FF, #5B42FF);
+    border-color: linear-gradient(to right, #7670FF, #5B42FF);
+}
+
+.enquiry-btn-head{
+    z-index: 999;
+    position: absolute;
+    top: 140px;
+    left: 50px;
+}
+
+.enquiry-btn:hover{
+    background: linear-gradient(to right, #5B42FF, #7670FF);
+    border-color: linear-gradient(to right, #5B42FF, #7670FF);
+}
+
+.enquiry-shadow{
+    position: absolute;
+    width: 1200px;
+    height: 230px;
+    margin: auto;
+}
+
+.sub-banner{
+    width: 1200px;
+    margin: auto;
+    background-color: #130950;
+    border-radius: 10px;
+    text-align: center;
+    height: 80px;
+    align-items: center;
+}
+
+.sub-banner img{
+    height: 40px;
+    width: 140px;
+    margin: 20px 20px 0 20px;
+}

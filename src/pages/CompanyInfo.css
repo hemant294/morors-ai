@@ -1,0 +1,25 @@
+.companyInfo-flex-content{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 1100px;
+    margin: auto;
+    gap: 30px;
+}
+
+.companyInfo-head{
+    width: 1200px;
+    padding: 20px;
+    background-color: #130950;
+    margin: auto;
+    border-radius: 12px;
+}
+
+@media screen and (max-width: 680px) {
+    .companyInfo-flex-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 400px;
+    }
+}

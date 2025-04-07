@@ -1,0 +1,26 @@
+.about-head{
+    width: 1100px;
+    margin: auto;
+}
+
+.about-head h1{
+    color: #fff;
+    font-size: 30px;
+}
+
+.about-head h6{
+    color: #fff;
+    font-size: 18px;
+}
+
+.about-head p{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.horzantal{
+    width: 120px;
+    background-color: #6e67f7;
+    height: 2px;
+}

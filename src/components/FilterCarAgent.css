@@ -1,0 +1,57 @@
+/* SwitchTabs.css */
+
+.switch-tabs {
+    position: relative;
+    width: 500px;
+    margin: auto;
+    height: 46px;
+    display: flex;
+    border-radius: 30px;
+    background: #130950;
+    overflow: hidden;
+    border: 1px solid #4a3aff;
+  }
+  
+  .tab-btn {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    z-index: 2;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .tab-btn:hover {
+    color: #ccc;
+  }
+  
+  .tab-btn.active {
+    color: #fff;
+  }
+  
+  .slider {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 33.33%;
+    background: linear-gradient(to right, #7670FF, #5B42FF);
+    border-radius: 30px;
+    transition: left 0.3s ease;
+    z-index: 1;
+  }
+  
+  .slider2 {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 50%;
+    background: linear-gradient(to right, #7670FF, #5B42FF);
+    border-radius: 30px;
+    transition: left 0.3s ease;
+    z-index: 1;
+  }
+  

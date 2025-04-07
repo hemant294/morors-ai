@@ -1,0 +1,20 @@
+.car-info-head {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    gap: 40px;
+    padding-top: 30px;
+}
+
+.car-info-right-card {
+    width: 600px;
+    background-color: #130950;
+    padding: 10px;
+}
+
+.car-infomation-card {
+    width: 600px;
+    background-color: #130950;
+}
+

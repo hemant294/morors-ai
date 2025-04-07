@@ -1,0 +1,81 @@
+
+.agent-list-head {
+    width: 600px;
+    padding: 20px;
+    background-color: #130950;
+    border-radius: 10px;
+}
+
+.agentList-main {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.agent-cart{
+    display: flex;
+    width: 280px;
+    justify-content: space-around;
+}
+
+.agent-info-head{
+    border-radius: 0 8px 8px 0;
+    height: 150px;
+    padding: 10px;
+    margin-left: -10px;
+    /* margin-top: 5px; */
+    background-color: #010122;
+}
+
+.agent-info h3{
+    font-size: 14px;
+    color: #fff;
+}
+
+.agent-info p{
+    font-size: 12px;
+    font-weight: 300;
+    margin: 0;
+    color: #F800C0;
+    line-height: 150%;
+}
+
+.agent-info span{
+    font-size: 12px;
+    color: #fff;
+    font-weight: 300;
+    line-height: 150%;
+}
+
+.chat-button {
+    margin-top: 10px;
+    padding: 2px 5px;
+    border: none;
+    /* margin-left: 20px; */
+    background: linear-gradient(to top, #F800C0, #FE8A70);
+    color: #FFFFFF;
+    font-size: 12px;
+}
+
+.agents-picture{
+    height: 150px;
+    width: 120px;
+    border-radius: 8px 0 0 8px;
+
+}
+
+@media screen and (max-width: 680px) {
+    .agent-list-head {
+        width: 400px;
+        padding: 10px;
+        background-color: #130950;
+        border-radius: 10px;
+    }
+
+    .chat-button {
+        width: 160px;
+        background: linear-gradient(to top, #F800C0, #FE8A70);
+        color: #FFFFFF;
+        margin-left: 10px;
+        font-size: 12px;
+    }
+}

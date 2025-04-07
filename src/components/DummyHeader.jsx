@@ -9,8 +9,10 @@ const DummyHeader = () => {
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav">
             <Link to="/home" className="nav-link" aria-current="page">Home</Link>
-            <Link to="/pricing" className="nav-link">Pricing</Link>
-            <span className="nav-link disabled">Disabled</span>
+            <Link to="/carInfo" className="nav-link">CarInfo</Link>
+            <Link to="/companyInfo" className="nav-link">Company info</Link>
+            <Link to="/agentinfo" className="nav-link">Agent info</Link>
+            <Link to="/about" className="nav-link">About Us</Link>
           </div>
         </div>
       </div>
