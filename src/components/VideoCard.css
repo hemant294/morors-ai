@@ -30,3 +30,8 @@
     height: 50px;
   }
   
+  @media screen and (max-width: 680px) {
+    .video-card h5{
+      font-size: 14px;
+    }
+  }

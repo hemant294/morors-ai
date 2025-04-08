@@ -3,11 +3,10 @@
     width: 500px;
     /* margin: auto; */
     padding-top: 120px;
-
 }
 
 .head-input-create-home {
-    width: 80%;
+    width: 90%;
     margin: auto;
     background-color: black;
     height: 64px;
@@ -62,6 +61,14 @@
         text-align: center;
     }
 
+    .queary-ai-first h4{
+        font-size: 16px;
+    }
+
+    .queary-ai-first h2{
+        font-size: 18px;
+    }
+
     .robot-img{
         /* display: block; */
         width: 180px;
@@ -72,6 +79,10 @@
         background-color: black;
         height: 42px;
         align-items: center;
+    }
+
+    .input-text-home {
+        font-size: 12px;
     }
 
     .submit-icon-head-home {
