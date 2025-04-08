@@ -1,0 +1,99 @@
+.queary-ai-first {
+    /* margin-top: 70px; */
+    width: 500px;
+    /* margin: auto; */
+    padding-top: 120px;
+
+}
+
+.head-input-create-home {
+    /* width: 70%; */
+    /* margin: auto; */
+    background-color: black;
+    height: 64px;
+    align-items: center;
+}
+
+.input-text-home {
+    font-family: "Gotham Rounded";
+    font-weight: 300;
+    font-size: 14px;
+    margin-bottom: 0;
+    line-height: 150%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #ffffff;
+    padding-left: 22px;
+}
+
+.micke-icon-home {
+    height: 34px;
+    width: 34px;
+}
+
+.submit-icon-head-home {
+    width: 48px;
+    height: 48px;
+    background-color: #F800C0;
+    text-align: center;
+    margin-bottom: 0;
+    margin-right: 8px;
+    align-items: center;
+}
+
+.robot-img{
+    /* display: block; */
+    width: 220px;
+    height: 220px;
+}
+
+.submit-icon-home {
+    width: 22px;
+    height: 22px;
+    color: #ffffff;
+    margin-top: 10px;
+    rotate: 45% !important;
+}
+
+@media screen and (max-width: 680px) {
+    .queary-ai-first {
+        width: 375px;
+        padding-top: 30px;
+        text-align: center;
+    }
+
+    .robot-img{
+        /* display: block; */
+        width: 180px;
+        height: 180px;
+    }
+
+    .head-input-create-home {
+        background-color: black;
+        height: 42px;
+        align-items: center;
+    }
+
+    .submit-icon-head-home {
+        width: 32px;
+        height: 32px;
+        background-color: #F800C0;
+        text-align: center;
+        margin-bottom: 0;
+        margin-right: 8px;
+        align-items: center;
+    }
+
+    .submit-icon-home{
+        width: 22px;
+        height: 22px;
+        margin-top: 0px;
+    }
+
+    .micke-icon-home{
+        width: 26px;
+        height: 26px;
+        color: #7670FF;
+        margin-right: 10px;
+    }
+}

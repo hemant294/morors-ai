@@ -1,0 +1,106 @@
+.company-info-card-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.company-info-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.company-logo {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+
+.company-info-card-header {}
+
+.company-info-card-header h2 {
+    font-size: 30px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.company-info-card-header p {
+    font-size: 16px;
+    color: #F800C0;
+    font-weight: 500;
+    margin: 0;
+}
+
+.company-info-card-header span {
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+.company-info-card-icon {
+    font-size: 18px;
+    color: #FFFFFF;
+    font-weight: 700;
+    margin-right: 20px;
+}
+
+.comapny-info-card-description {
+    font-weight: 300;
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0%;
+}
+
+.comapny-info-card-description-mob{
+    display: none;
+}
+
+@media screen and (max-width: 680px) {
+
+    .company-info-card-head {
+        width: 98%;
+        margin: auto;
+        justify-content: flex-start;
+        margin-top: 10px;
+    }
+
+    .company-logo {
+        width: 120px;
+        height: 120px;
+    }
+
+    .company-info-card-header {
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+        align-items: start !important;
+        padding: 16px 12px;
+        justify-content: flex-start;
+    }
+
+    .comapny-info-card-description{
+        display: none;
+    }
+
+    .company-info-card-header h2 {
+        font-size: 18px;
+        color: #fff;
+        font-weight: 500;
+    }
+    
+    .company-info-card-header p {
+        font-size: 12px;
+        color: #F800C0;
+        font-weight: 500;
+        margin: 0;
+    }
+
+    .comapny-info-card-description-mob{
+        width: 90%;
+        margin: auto;
+        display: block;
+        color: #fff;
+        font-weight: 300;
+        font-size: 12px;
+    }
+}

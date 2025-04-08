@@ -1,0 +1,51 @@
+.help-center-desktop{
+}
+
+.help-FQ-head{
+    width: 1100px;
+    margin: auto;
+}
+
+.help-head h2{
+    color: #fff;
+    font-weight: 500;
+    padding: 0 10px;
+}
+
+.help-center-desktop{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.help-dilog-head{
+    background-color: #151344;
+    border-color: linear-gradient(to right, #5B42FF, #7670FF);
+    padding: 14px 26px;
+    border-radius: 10px;
+    align-items: center;
+    margin: 10px;
+}
+
+.help-text-head h6{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+
+.help-text-head h5{
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.icon-main{
+    font-size: 30px;
+    color: #F800C0;
+}
+
+.icon-head{
+    background-color: #5B42FF;
+    padding: 12px;
+    border-radius: 50%;
+}

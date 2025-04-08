@@ -1,0 +1,199 @@
+.button-group-home {
+    width: 255px;
+    height: 38px;
+    border-radius: 90px;
+    border-width: 1px;
+    border: 1px solid;
+    text-align: center;
+    align-items: center;
+    border-color: #7670FF;
+}
+
+.clicked-button {
+    width: 84px;
+    background: linear-gradient(to right, #7670FF, #5B42FF);
+    border-color: linear-gradient(to right, #7670FF, #5B42FF);
+}
+
+.button-group-home button {
+    /* padding-top: 10px; */
+    font-size: 12px;
+    padding: 8px;
+    width: 84px;
+    font-weight: 400 !important;
+    color: #FFFFFF !important;
+}
+
+.dropdown-button-filter {
+    height: 38px;
+    color: #FFFFFF;
+    font-size: 14px;
+    background: linear-gradient(to right, #7670FF, #5B42FF);
+    border-color: linear-gradient(to right, #7670FF, #5B42FF);
+}
+
+.car-image {
+    width: 280px;
+    height: 120px;
+}
+
+.car-card-button {
+    width: 240px;
+    border: none;
+    margin-left: 20px;
+    background: linear-gradient(to top, #F800C0, #FE8A70);
+    color: #FFFFFF;
+    font-size: 12px;
+}
+
+.card-detials {
+    width: 280px;
+    background-color: #09061f;
+    padding-bottom: 12px;
+    border-radius: 0 0 12px 12px;
+    margin: auto;
+}
+
+.load-more-btn {
+    width: 125px;
+    border-radius: 90px;
+    padding: 6px 0px;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    color: #FFFFFF !important;
+    background: linear-gradient(to right, #7670FF, #5B42FF);
+    border: none;
+    margin: auto;
+}
+
+
+.card-text-head h3 {
+    font-size: 14px;
+}
+
+.card-text-head p {
+    font-size: 12px;
+}
+
+.card-text-head h4 {
+    font-size: 13px;
+}
+
+.card-head {
+    position: relative;
+}
+
+.add-logo-img {
+    position: absolute;
+    top: 112px;
+    left: 75%;
+    height: 38px;
+    width: 42px;
+}
+
+.card-main {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+
+@media screen and (max-width: 680px) {
+    .card-head {
+        width: 100%;
+    }
+
+    .card-main {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .car-image {
+        width: 160px;
+        height: 80px;
+    }
+
+    .card-detials {
+        width: 160px;
+        background-color: #09061f;
+        padding-bottom: 12px;
+        border-radius: 0 0 12px 12px;
+        margin: auto;
+    }
+
+    .card-text-head h3 {
+        font-size: 10px;
+    }
+
+    .card-text-head p {
+        font-size: 8px;
+    }
+
+    .card-text-head h4 {
+        font-size: 9px;
+    }
+
+    .car-card-button {
+        width: 140px;
+        background: linear-gradient(to top, #F800C0, #FE8A70);
+        color: #FFFFFF;
+        margin-left: 10px;
+        font-size: 12px;
+    }
+
+    .add-logo-img {
+        position: absolute;
+        top: 78px;
+        left: 70%;
+        height: 30px;
+        width: 32px;
+    }
+
+    .card-header-text {
+        font-size: 12px;
+    }
+
+    .dropdown-button-filter {
+        height: 32px;
+        width: 140px;
+        font-size: 14px !important;
+        margin-bottom: -10px;
+        background: linear-gradient(to right, #7670FF, #5B42FF);
+        border-color: linear-gradient(to right, #7670FF, #5B42FF);
+    }
+
+    .button-group-home {
+        height: 32px;
+        width: 200px;
+        border-radius: 90px;
+        border-width: 1px;
+        border: 1px solid;
+        text-align: center;
+        align-items: center;
+        border-color: #7670FF;
+        margin: 4px 0 4px 0;
+    }
+
+    .button-group-home button {
+        height: 32px !important;
+        font-size: 12px !important;
+        /* padding: 6px; */
+        align-items: center;
+        width: 65.5px;
+        font-weight: 400 !important;
+        color: #FFFFFF !important;
+    }
+
+    .card-product-header{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+        align-items: start;
+        text-align: start;
+    }
+}
+
+.card-product-header{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
