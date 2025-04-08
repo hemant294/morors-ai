@@ -1,6 +1,3 @@
-.help-center-desktop{
-}
-
 .help-FQ-head{
     width: 1100px;
     margin: auto;
@@ -48,4 +45,34 @@
     background-color: #5B42FF;
     padding: 12px;
     border-radius: 50%;
+}
+
+.video-explain-head{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 10px;
+}
+
+@media screen and (max-width: 680px) {
+    .help-FQ-head{
+        width: 96%;
+        margin: auto;
+    }
+
+    .help-head h2{
+        color: #fff;
+        font-weight: 500;
+        font-size: 16px;
+        padding: 0 10px;
+    }
+
+    .help-center-desktop{
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .video-explain-head{
+        padding: 10px;
+    }
 }

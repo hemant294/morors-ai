@@ -53,7 +53,7 @@ const HelpingFandQ = () => {
                     </div>
                 </div>
                 <div className='horizantal'></div>
-                <div className="d-flex justify-content-between gap-3 p-4">
+                <div className="video-explain-head">
                     <VideoCard title="How to Buy" thumbnail={buyThumbnail} videoUrl="https://www.youtube.com/watch?v=aqz-KE-bpKQ" />
                     <VideoCard title="How to Sell" thumbnail={buyThumbnail} videoUrl="https://www.youtube.com/watch?v=aqz-KE-bpKQ" />
                     <VideoCard title="How to Rent" thumbnail={buyThumbnail} videoUrl="https://www.youtube.com/watch?v=aqz-KE-bpKQ" />

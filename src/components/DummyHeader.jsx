@@ -1,14 +1,27 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from "react-router-dom";
 
 const DummyHeader = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleNavbar = () => setIsOpen(!isOpen);
+
   return (
     <nav className="navbar navbar-expand-lg bg-light">
       <div className="container-fluid">
         <Link to="/" className="navbar-brand">Hero</Link>
-        <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+
+        <button
+          className="navbar-toggler fs-6"
+          type="button"
+          onClick={toggleNavbar}
+        >
+          <span className="navbar-toggler-icon"></span>
+        </button>
+
+        <div className={`collapse navbar-collapse ${isOpen ? 'show' : ''}`} id="navbarNavAltMarkup">
           <div className="navbar-nav">
-            <Link to="/home" className="nav-link" aria-current="page">Home</Link>
+            <Link to="/home" className="nav-link">Home</Link>
             <Link to="/carInfo" className="nav-link">CarInfo</Link>
             <Link to="/companyInfo" className="nav-link">Company info</Link>
             <Link to="/agentinfo" className="nav-link">Agent info</Link>

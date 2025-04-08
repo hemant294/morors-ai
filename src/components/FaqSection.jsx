@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import "./FaqSection.css";
 
 const faqData = {
     Buy: [
@@ -30,56 +31,42 @@ const FaqSection = () => {
     };
 
     return (
-        <div style={{ padding: "30px", fontFamily: "Arial, sans-serif", color: "#fff" }}>
-            <div className='d-flex justify-content-between align-items-center mb-3'>
-            <h3 style={{ color: "#fff" }}>FAQ</h3>
-            <div style={{ display: "flex", gap: "10px" }}>
-                {['Buy', 'Sell', 'Rent'].map((tab) => (
-                    <button
-                        key={tab}
-                        onClick={() => {
-                            setActiveTab(tab);
-                            setOpenIndex(null);
-                        }}
-                        style={{
-                            background: "none",
-                            color: activeTab === tab ? "#F800C0" : "#ffff",
-                            border: "none",
-                            cursor: "pointer",
-                            fontSize: "20px"
-                        }}
-                    >
-                        {tab}
-                    </button>
-                ))}
-            </div>
+        <div className="faq-section">
+            <div className="faq-header">
+                <h3>FAQ</h3>
+                <div className="faq-tabs">
+                    {['Buy', 'Sell', 'Rent'].map((tab) => (
+                        <button
+                            key={tab}
+                            onClick={() => {
+                                setActiveTab(tab);
+                                setOpenIndex(null);
+                            }}
+                            className={`faq-tab-button ${activeTab === tab ? "active" : ""}`}
+                        >
+                            {tab}
+                        </button>
+                    ))}
+                </div>
             </div>
             <div>
                 {faqData[activeTab].map((item, index) => (
-                    <div
-                        key={index}
-                        style={{
-                            border: "1px solid #2a2a72",
-                            borderRadius: "10px",
-                            marginBottom: "10px",
-                            backgroundColor: "#1a1a40",
-                            padding: "15px"
-                        }}
-                    >
+                    <div key={index} className="faq-item">
                         <div
                             onClick={() => toggleAnswer(index)}
-                            style={{ display: "flex", justifyContent: "space-between", cursor: "pointer", alignItems: "center" }}
+                            className="faq-question"
                         >
                             <span>{item.question}</span>
-                            <span className='fs-4'>{openIndex === index ? "−" : "+"}</span>
+                            <span className="fs-4">{openIndex === index ? "−" : "+"}</span>
                         </div>
                         {openIndex === index && (
-                            <p style={{ marginTop: "10px", color: "#aaa",fontSize: "14px" }}>{item.answer}</p>
+                            <p className="faq-answer">{item.answer}</p>
                         )}
                     </div>
                 ))}
             </div>
         </div>
+
     );
 };
 

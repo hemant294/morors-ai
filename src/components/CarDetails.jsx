@@ -38,13 +38,13 @@ const CarDetails = () => {
         </div>
         <button
           type="button"
-          className="btn rounded-pill overview-btn me-3 mt-4"
+          className="btn rounded-pill overview-btn me-3 "
         >
           Enquiry Now
         </button>
         <button
           type="button"
-          className="btn rounded-pill overview-btn mt-4"
+          className="btn rounded-pill overview-btn "
         >
           Talk to Agent
         </button>
@@ -57,15 +57,15 @@ const CarDetails = () => {
       <div className='ratings-car-info d-flex justify-content-between align-items-center'>
         <img src={face} alt="face icon" className='face-logo' />
         <p className='text-light m-0 font-weight-bold' >Simon Quitzon</p>
-        <div className='text-light'>
-          <MdOutlineStarPurple500 className='fs-4' style={{ color: "#F800C0" }} />
-          <MdStarBorderPurple500 className='fs-4' style={{ color: "#F800C0" }} />
-          <MdStarBorderPurple500 className='fs-4' style={{ color: "#F800C0" }} />
-          <MdStarBorderPurple500 className='fs-4' style={{ color: "#F800C0" }} />
-          <MdStarBorderPurple500 className='fs-4' style={{ color: "#F800C0" }} />
+        <div className='text-light '>
+          <MdOutlineStarPurple500 className='rating-icon' style={{ color: "#F800C0" }} />
+          <MdStarBorderPurple500 className='rating-icon' style={{ color: "#F800C0" }} />
+          <MdStarBorderPurple500 className='rating-icon' style={{ color: "#F800C0" }} />
+          <MdStarBorderPurple500 className='rating-icon' style={{ color: "#F800C0" }} />
+          <MdStarBorderPurple500 className='rating-icon' style={{ color: "#F800C0" }} />
         </div>
         <div className='add-photo-btn-head'>
-          <button className='rounded-pill'>Add some photos <span className="fs-4" style={{ color: "#7670FF" }}><MdOutlineUpload /></span></button>
+          <button className='rounded-pill'>Add some photos <span className="" style={{ color: "#7670FF" }}><MdOutlineUpload /></span></button>
         </div>
       </div>
       <div className='mb-3 enquiry-car-info d-flex align-items-center justify-content-around'>
