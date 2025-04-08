@@ -51,23 +51,24 @@
     color: #FFFFFF;
 }
 
-.horizantal{
+.horizantal {
     margin: 20px 22px;
     height: 1px;
     font-weight: 400;
     background-color: #F800C0;
 }
 
-.overview-car-info{
+.overview-car-info {
     padding: 0 22px;
 }
 
-.overview-car-info h5{
+.overview-car-info h5 {
     font-size: 15px;
     font-weight: 400;
-    color: #F800C0;}
+    color: #F800C0;
+}
 
-.overview-car-info p{
+.overview-car-info p {
     font-size: 14px;
     font-weight: 300;
     margin: 0;
@@ -75,7 +76,7 @@
     line-height: 150%;
 }
 
-.overview-car-info span{
+.overview-car-info span {
     font-size: 15px;
     color: #fff;
     font-weight: 300;
@@ -85,6 +86,7 @@
 .overview-btn {
     padding: 8px 20px !important;
     border-radius: 90px;
+    margin-top: 16px !important;
     font-size: 14px !important;
     font-weight: 400 !important;
     color: #FFFFFF !important;
@@ -92,19 +94,19 @@
     border-color: linear-gradient(to right, #7670FF, #5B42FF);
 }
 
-.overview-btn:hover{
+.overview-btn:hover {
     background: linear-gradient(to right, #5B42FF, #7670FF);
     border-color: linear-gradient(to right, #5B42FF, #7670FF);
 }
 
 .review-car-info {
-    padding:0 22px;
+    padding: 0 22px;
     display: flex;
     justify-content: space-between;
 
 }
 
-.review-car-info h5{
+.review-car-info h5 {
     font-size: 14px;
     font-weight: 400;
     margin: 0;
@@ -112,7 +114,7 @@
     line-height: 150%;
 }
 
-.review-car-info p{
+.review-car-info p {
     font-size: 14px;
     font-weight: 400;
     margin: 0;
@@ -120,15 +122,15 @@
     line-height: 150%;
 }
 
-.ratings-car-info{
+.ratings-car-info {
     padding: 20px 22px;
 }
 
-.enquiry-car-info{
+.enquiry-car-info {
     padding: 10px 22px;
 }
 
-.enquiry-car-info button{
+.enquiry-car-info button {
     padding: 12px 25px !important;
     border-radius: 90px;
     font-size: 16px !important;
@@ -137,12 +139,12 @@
     color: #FFFFFF;
 }
 
-.enquiry-car-info button:hover{
+.enquiry-car-info button:hover {
     background: linear-gradient(to top, #eb5cc9, #FE8A70);
     color: #FFFFFF;
 }
 
-.enquiry-car-info input{
+.enquiry-car-info input {
     height: 55px;
     padding-left: 20px;
     font-size: 14px;
@@ -152,20 +154,157 @@
     border-color: #7670FF;
 }
 
-.enquiry-car-info input:focus{
+.enquiry-car-info input:focus {
     outline: none;
     border-color: #F800C0;
 }
 
-.face-logo{
+.face-logo {
     height: 50px;
     width: 50px;
 }
 
-.add-photo-btn-head button{
+.rating-icon {
+    font-size: 22px;
+}
+
+.add-photo-btn-head button {
     border-color: #F800C0;
     padding: 10px 20px;
     font-size: 14px;
     background-color: black;
     color: #fff;
+    display: inline-flex;
+    align-items: center;
+}
+
+.add-photo-btn-head span{
+    font-size: 22px;
+    margin-left: 2px;
+}
+
+@media screen and (max-width: 680px) {
+    .car-info-logo {
+        width: 100%;
+        margin: auto;
+        height: 200px;
+        padding: 12px;
+    }
+
+    .time-info-car {
+        padding: 0 12px;
+        align-items: center;
+    }
+
+    .time-info-car p {
+        font-size: 10px;
+        font-weight: 400;
+        margin: 0;
+        color: #F800C0;
+    }
+
+    .time-info-car span {
+        font-size: 12px;
+        color: #fff;
+        font-weight: 500;
+    }
+
+    .description-car-info {
+        padding: 0 12px;
+    }
+
+    .description-car-info h5 {
+        font-size: 14px;
+        font-weight: 400;
+        color: #F800C0;
+    }
+
+    .description-car-info p {
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 150%;
+        letter-spacing: 0%;
+        vertical-align: middle;
+        color: #FFFFFF;
+    }
+
+    .horizantal {
+        margin: 14px 12px;
+        height: 1px;
+        font-weight: 400;
+        background-color: #F800C0;
+    }
+
+    .overview-car-info {
+        padding: 0 12px;
+    }
+
+    .overview-car-info h5 {
+        font-size: 14px;
+        font-weight: 400;
+        color: #F800C0;
+    }
+
+    .overview-car-info p {
+        font-size: 12px;
+    }
+
+    .overview-car-info span {
+        font-size: 13px;
+    }
+
+    .overview-btn {
+        padding: 4px 12px !important;
+        font-size: 10px !important;
+        margin-top: 10px !important;
+    }
+
+    .ratings-car-info {
+        padding: 10px 16px;
+    }
+
+    .ratings-car-info p {
+        font-size: 10px;
+    }
+
+    .face-logo {
+
+        height: 30px;
+        width: 30px;
+    }
+
+    .rating-icon {
+        font-size: 16px;
+    }
+
+    .add-photo-btn-head button {
+        padding: 4px 8px;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .add-photo-btn-head span{
+        font-size: 14px;
+        margin-left: 2px;
+    }
+    
+    .enquiry-car-info {
+        padding: 10px 12px;
+    }
+    
+    .enquiry-car-info button {
+        padding: 6px 15px !important;
+        border-radius: 90px;
+        font-size: 12px !important;
+        font-weight: 500 !important;
+        background: linear-gradient(to top, #F800C0, #FE8A70);
+        color: #FFFFFF;
+    }
+
+    .enquiry-car-info input {
+        height: 34px;
+        padding-left: 10px;
+        width: 60%;
+        font-size: 10px;
+    }
 }
