@@ -9,7 +9,7 @@ const CarCollections = () => {
             {/* <div className='car-product-list-head'> */}
             <div className='px-3 card-product-header'>
                 <h5 className='text-light card-header-text mb-0'>Cars for Sell 12424</h5>
-                <div className='d-flex'>
+                <div className=''>
                     <div className="me-3 button-group-home ">
                         <button className="btn clicked-button rounded-pill">Featured</button>
                         <button className="btn">Company</button>

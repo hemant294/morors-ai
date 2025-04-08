@@ -1,8 +1,6 @@
 import React from 'react'
 import "./Home.css";
 import carsList from "../assets/carsList.png"
-import car1 from "../assets/car1.png";
-import addLogo from "../assets/addLogo.png";
 import Enquiry from '../components/Enquiry';
 import CarCollections from '../components/CarCollections';
 import EnquiryBanner from '../components/EnquiryBanner';

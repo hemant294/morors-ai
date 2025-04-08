@@ -1,57 +1,89 @@
-/* SwitchTabs.css */
+/* FilterCarAgent.css */
 
 .switch-tabs {
-    position: relative;
-    width: 500px;
-    margin: auto;
-    height: 46px;
-    display: flex;
-    border-radius: 30px;
-    background: #130950;
-    overflow: hidden;
-    border: 1px solid #4a3aff;
-  }
-  
-  .tab-btn {
-    flex: 1;
+  position: relative;
+  max-width: 680px;
+  width: 100%;
+  margin: auto;
+  height: 46px;
+  display: flex;
+  border-radius: 30px;
+  background: #130950;
+  overflow: hidden;
+  border: 1px solid #4a3aff;
+}
+
+.tab-btn {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #fff;
+  font-weight: 500;
+  font-size: 14px;
+  z-index: 2;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.tab-btn:hover {
+  color: #ccc;
+}
+
+.tab-btn.active {
+  color: #fff;
+}
+
+.slider {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 33.33%;
+  background: linear-gradient(to right, #7670FF, #5B42FF);
+  border-radius: 30px;
+  transition: left 0.3s ease;
+  z-index: 1;
+}
+
+.slider2 {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 50%;
+  background: linear-gradient(to right, #7670FF, #5B42FF);
+  border-radius: 30px;
+  transition: left 0.3s ease;
+  z-index: 1;
+}
+
+/* Responsive design */
+@media (max-width: 680px) {
+  .switch-tabs {
+    width: 96%;
+    height: auto;
+    flex-direction: column;
+    padding: 10px;
+    text-align: left;
     border: none;
-    outline: none;
-    background: transparent;
-    color: #fff;
-    font-weight: 500;
+  }
+
+  .tab-btn {
+    margin-bottom: 8px;
     font-size: 14px;
-    z-index: 2;
-    cursor: pointer;
-    transition: color 0.3s ease;
+    text-align: left;
+    background-color: #4a3aff;
+    border-radius: 10px;
+    padding: 2px;
+    padding-left: 10px;
   }
-  
-  .tab-btn:hover {
-    color: #ccc;
-  }
-  
-  .tab-btn.active {
+
+  .tab-btn .active{
+    background-color:  #F800C0;
     color: #fff;
   }
-  
-  .slider {
-    position: absolute;
-    top: 0;
-    height: 100%;
-    width: 33.33%;
-    background: linear-gradient(to right, #7670FF, #5B42FF);
-    border-radius: 30px;
-    transition: left 0.3s ease;
-    z-index: 1;
-  }
-  
+
+  .slider,
   .slider2 {
-    position: absolute;
-    top: 0;
-    height: 100%;
-    width: 50%;
-    background: linear-gradient(to right, #7670FF, #5B42FF);
-    border-radius: 30px;
-    transition: left 0.3s ease;
-    z-index: 1;
+    display: none; /* Hide animated slider on small screens */
   }
-  
+}

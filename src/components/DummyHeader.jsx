@@ -13,6 +13,8 @@ const DummyHeader = () => {
             <Link to="/companyInfo" className="nav-link">Company info</Link>
             <Link to="/agentinfo" className="nav-link">Agent info</Link>
             <Link to="/about" className="nav-link">About Us</Link>
+            <Link to="/policy" className="nav-link">Privacy Policy</Link>
+            <Link to="/help" className="nav-link">Help and F&Q</Link>
           </div>
         </div>
       </div>

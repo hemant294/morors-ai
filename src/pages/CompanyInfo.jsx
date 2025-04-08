@@ -14,10 +14,10 @@ const CompanyInfo = () => {
         <>
             <div className='companyInfo-head mt-4'>
                 <CompanyInfoCard />
-                <div className='horizantal mt-0'></div>
+                <div className='horizantal mt-3'></div>
                 <div className='companyInfo-flex-content'>
                     <Enquiry />
-                    <div>
+                    <div className='companyInfo-car-list-head'>
                         <FilterCarAgent activeTab={activeTab} setActiveTab={setActiveTab} />
                         {activeTab === "Motor Listing" ? (
                             <CarCollections />

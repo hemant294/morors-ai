@@ -41,6 +41,12 @@
     align-items: center;
 }
 
+.robot-img{
+    /* display: block; */
+    width: 220px;
+    height: 220px;
+}
+
 .submit-icon-home {
     width: 22px;
     height: 22px;
@@ -51,9 +57,43 @@
 
 @media screen and (max-width: 680px) {
     .queary-ai-first {
-        width: 400px;
-        padding-top: 60px;
+        width: 375px;
+        padding-top: 30px;
+        text-align: center;
     }
 
+    .robot-img{
+        /* display: block; */
+        width: 180px;
+        height: 180px;
+    }
 
+    .head-input-create-home {
+        background-color: black;
+        height: 42px;
+        align-items: center;
+    }
+
+    .submit-icon-head-home {
+        width: 32px;
+        height: 32px;
+        background-color: #F800C0;
+        text-align: center;
+        margin-bottom: 0;
+        margin-right: 8px;
+        align-items: center;
+    }
+
+    .submit-icon-home{
+        width: 22px;
+        height: 22px;
+        margin-top: 0px;
+    }
+
+    .micke-icon-home{
+        width: 26px;
+        height: 26px;
+        color: #7670FF;
+        margin-right: 10px;
+    }
 }

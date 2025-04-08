@@ -65,11 +65,17 @@
 
 @media screen and (max-width: 680px) {
     .agent-list-head {
-        width: 400px;
-        padding: 10px;
+        width: 96%;
+        /* padding: 10px; */
         background-color: #130950;
         border-radius: 10px;
     }
+
+    .agentList-main {
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        text-align: start;    }
 
     .chat-button {
         width: 160px;

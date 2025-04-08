@@ -94,7 +94,7 @@ const Hero = () => {
                     </div>
                 </motion.div>
             </div>
-            <div className='hero-image-group-mobile'>
+            <div className='hero-image-group-mobile mt-3'>
                 <motion.div
                     className='hero-images-head-mobile'
                     initial={{ x: 100, opacity: 0 }}

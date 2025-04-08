@@ -33,7 +33,7 @@
 }
 
 .car-image {
-    width: 290px;
+    width: 280px;
     height: 120px;
 }
 
@@ -47,7 +47,7 @@
 }
 
 .card-detials {
-    width: 290px;
+    width: 280px;
     background-color: #09061f;
     padding-bottom: 12px;
     border-radius: 0 0 12px 12px;
@@ -85,10 +85,10 @@
 
 .add-logo-img {
     position: absolute;
-    top: 104px;
+    top: 112px;
     left: 75%;
-    height: 40px;
-    width: 44px;
+    height: 38px;
+    width: 42px;
 }
 
 .card-main {
@@ -108,12 +108,12 @@
     }
 
     .car-image {
-        width: 180px;
-        height: 90px;
+        width: 160px;
+        height: 80px;
     }
 
     .card-detials {
-        width: 180px;
+        width: 160px;
         background-color: #09061f;
         padding-bottom: 12px;
         border-radius: 0 0 12px 12px;
@@ -133,7 +133,7 @@
     }
 
     .car-card-button {
-        width: 160px;
+        width: 140px;
         background: linear-gradient(to top, #F800C0, #FE8A70);
         color: #FFFFFF;
         margin-left: 10px;
@@ -142,14 +142,14 @@
 
     .add-logo-img {
         position: absolute;
-        top: 90px;
-        left: 75%;
+        top: 78px;
+        left: 70%;
         height: 30px;
         width: 32px;
     }
 
     .card-header-text {
-        font-size: 16px;
+        font-size: 12px;
     }
 
     .dropdown-button-filter {

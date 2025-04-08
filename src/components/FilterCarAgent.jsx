@@ -10,7 +10,7 @@ const FilterCarAgent = ({ activeTab, setActiveTab }) => {
     };
 
     return (
-        <div>
+        <div className="filter-container pb-3">
             <div className="switch-tabs">
                 <div
                     className={location.pathname === "/companyInfo" ? "slider" : "slider2"}
@@ -28,7 +28,6 @@ const FilterCarAgent = ({ activeTab, setActiveTab }) => {
                                 : activeTab === "Motor Listing"
                                     ? "50%"
                                     : "50%",
-
                     }}
                 />
                 {location.pathname === "/companyInfo" && ["Featured Motor Listing", "Motor Listing", "Agents"].map((tab) => (

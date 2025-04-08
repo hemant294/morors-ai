@@ -7,6 +7,8 @@ import CarInfo from '../pages/CarInfo';
 import CompanyInfo from '../pages/CompanyInfo';
 import AgentInfo from '../pages/AgentInfo';
 import About from '../pages/About';
+import PrivacyPolicy from '../pages/PrivacyPolicy';
+import HelpingFandQ from '../pages/HelpingFandQ';
 
 const AppRoutes = () => {
   return (
@@ -19,6 +21,8 @@ const AppRoutes = () => {
         <Route path='/companyInfo/agentList' element={<CompanyInfo />} />
         <Route path='/agentInfo' element={<AgentInfo />} />
         <Route path='/about' element={<About />} />
+        <Route path='/policy' element={<PrivacyPolicy />} />
+        <Route path='/help' element={<HelpingFandQ />} />
       </Route>
     </Routes>
   );

@@ -147,7 +147,7 @@
 
 @media screen and (max-width: 680px) {
     .head-input-create {
-        width: 360px;
+        width: 350px;
         margin: auto;
         height: 40px;
     }
@@ -176,12 +176,14 @@
     .google-lance-logo {
         width: 26px;
         height: 26px;
+        margin-right: 8px;
     }
     
     .micke-icon {
         width: 26px;
         height: 26px;
         color: #7670FF;
+        margin-right: 8px;
     }
     
     .submit-icon-head {

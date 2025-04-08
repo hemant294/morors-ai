@@ -14,7 +14,7 @@ const AgentInfo = () => {
         <>
             <div className='companyInfo-head mt-4'>
                 <AgentInfoCard />
-                <div className='horizantal mt-0'></div>
+                <div className='horizantal mt-3'></div>
                 <div className='companyInfo-flex-content'>
                     <Enquiry />
                     <div>

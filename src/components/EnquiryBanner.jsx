@@ -9,7 +9,7 @@ import shadow from "../assets/EnquiryBackImgShadow.png";
 
 const EnquiryBanner = () => {
     return (
-        <div className='mt-5'>
+        <div className='mt-5 mb-3'>
             <div className='banner-head'>
                 <img src={enquiryText} alt="" className='enquiry-text' />
                 <div className='enquiry-btn-head'>
